@@ -9,9 +9,9 @@
     });
 
     function calculatePasswordStrength(password) {
-        if (password.length >= 8) {
+        if (password.length >= 12) {
             return "Strong";
-        } else if (password.length >= 6) {
+        } else if (password.length >= 8) {
             return "Medium";
         }
 
