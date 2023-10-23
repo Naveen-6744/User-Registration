@@ -1,4 +1,4 @@
-body {
+  body {
     font-family: Arial, sans-serif;
     background-color: #f1f1f1;
     margin: 0;
@@ -9,7 +9,7 @@ body {
     max-width: 500px;
     margin: 0 auto;
     padding: 20px;
-    background-color: #f9f9f9; /* Light gray background color */
+    background-color: #ccffff;
     border-radius: 5px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
 }
@@ -39,13 +39,28 @@ select {
     border-radius: 4px;
 }
 
-input[type="file"] {
-    margin: 10px 0;
+.file-input-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
 }
 
-input[type="checkbox"] {
-    margin-right: 5px;
+.file-label {
+    cursor: pointer;
+    color: #3498db;
+    text-decoration: underline;
+    margin-top: 10px;
 }
+
+.profile-pic-input {
+    display: block;
+}
+
+#password-strength {
+    margin-top: 10px;
+}
+
 
 .btn {
     background-color: #4CAF50;
